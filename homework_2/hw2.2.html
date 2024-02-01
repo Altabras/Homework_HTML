@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+        }
+
+        .flex {
+            height: 300px;
+            width: 100%;
+            background-color: #efd8c0;
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+        }
+
+        div.flex > div:hover {
+            background-color: darkgray;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flex">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+</body>
+</html>
