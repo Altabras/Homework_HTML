@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: hidden;
+
+        }
+
+        .insta{
+            width: 20vw;
+            height: 70vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            border: 2px silver solid;
+
+        }
+
+
+
+        .imgInst {
+           width: 10vw;
+        }
+
+        .insta input {
+            width: 65%;
+            height: 6%;
+            margin: -20px;
+            font-size: 19px;
+            font-family: Arial sans-serif;
+            background: #f5f5f5;
+            border: 1px silver solid;
+            border-radius: 3px;
+            text-overflow: ellipsis;
+        }
+
+        .insta button {
+            width: 65%;
+            height: 6%;
+            margin: -20px;
+            color: white;
+            background: #5bb5ff;
+            border-radius: 10px;
+            font-family: Arial sans-serif;
+            border:0;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .insta button:hover {
+            background: #159cfc;
+        }
+
+        h4 {
+            margin: -20px;
+            font-size: 20px;
+            color: #9d9d9d;
+            font-family: Arial sans-serif;
+        }
+
+        .facebook {
+            margin: -20px;
+            display: flex;
+            color: #2b6798;
+            font-family: Arial sans-serif;
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+        .imgFB {
+            width: 10%;
+
+
+        }
+
+       .insta a  {
+            font-size: 20px;
+            text-decoration: none;
+           color: #2b6798;
+        }
+
+
+        .footInst {
+            width: 20vw;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px silver solid;
+            margin: 20px;
+            font-size: 22px;
+            font-family: Arial sans-serif;
+        }
+
+        .footInst a {
+            text-decoration: none;
+            color: #5bb5ff;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="insta">
+
+        <img class="imgInst" src="instagram.png" alt="">
+
+        <input type="text" placeholder="Номер телефону, ім'я користувача або email">
+
+        <input type="text" placeholder="Пароль">
+
+        <button>Увійти</button>
+
+        <h4>АБО</h4>
+
+        <div class="facebook">
+            <img class="imgFB" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABUElEQVR4nO2ZzUrDQBDH82S7Vby1JTsoPpAieFBv0qMP4UyEQq03L4KWWh/Am4eASXupYEeiWL9o6W5jdgPzgzku+f/2m00UCYIgBE3DYKwArxTgRANxFaUAJwqor+KkvVZ4beiwqtB6URk8cO557+HhU4Ja1gLFtAlI4NJewODYe3CYV24tEEBo/l4ioEvoxc2dhI86Q767TznLpzyb8Q+CHoGN7YSvb554GTpkgePOcGn44AUGo5RrLZCPX/4E3ju55a3di5Xaexd4/b1imd/XxartvQvYThktAvA/vb6I52wa3gjYMBil9RY47z7WW+D07CE8AdmFQEaAZAppOYlJdiGWbRTkNspyEuu6XSVUyU+L6wlgZi8A1C/7QudcBnv2AnHS9h4cPqoB2IxcKH4u+A6vgPadwn9JUKt4n6/yuV0V3zLYc+55QRCEqCreAAESa+zxbT1rAAAAAElFTkSuQmCC">
+            <b>Увійти через Facebook</b>
+        </div>
+
+        <a class="insta-block" href="#">Забули пароль?</a>
+
+
+    </div>
+
+    <div class="footInst">
+        Не маєте облікового запису? <a href="#">  <b>Зареєструйтеся</b></a>
+    </div>
+</body>
+</html>
