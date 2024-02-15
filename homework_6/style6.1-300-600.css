@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px)  {
+
+    body {
+        margin: 0;
+    }
+
+    div {
+        flex-direction: column;
+    }
+
+    header {
+        width: 100vh;
+        height: 15vh;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    main {
+        width: 100vh;
+        height: 70vh;
+        order: 1;
+    }
+
+    article {
+        order: 2;
+        width: 100vh;
+        height: 15vh;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+}
