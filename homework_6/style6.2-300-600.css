@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+
+    main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    }
+
+    .main-block {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+
+
+    }
+
+    .block {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 20vh;
+
+
+    }
+
+    .block1, .block2, .block3 {
+        width: 24vw;
+        height: 20vh;
+        background-color: lightgreen;
+    }
+
+    section {
+        display: flex;
+        height: 30vh;
+        width: 100vw;
+        background-color: lightcoral;
+    }
+
+}

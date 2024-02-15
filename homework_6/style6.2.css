@@ -1,0 +1,49 @@
+
+body{
+    margin: 0;
+}
+
+header {
+    height: 30vh;
+
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+div {
+    display: flex;
+
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-block {
+    width: 75vw;
+    height: 35vh;
+    background-color: lightblue;
+
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.block1, .block2, .block3 {
+    width: 24vw;
+    height: 35vh;
+    background-color: lightgreen;
+}
+
+section {
+    width: 25%;
+    background-color: lightcoral;
+}
